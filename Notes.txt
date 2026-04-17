@@ -1,0 +1,18 @@
+# Close all other PowerShell windows first, then in a fresh session:
+
+# 1. Remove PnP (you can reinstall after if you need it)
+Uninstall-Module PnP.PowerShell -AllVersions -Force
+
+# 2. Remove and reinstall Graph clean
+Get-InstalledModule Microsoft.Graph* | Uninstall-Module -AllVersions -Force
+Install-Module Microsoft.Graph.Authentication -Scope CurrentUser -Force
+
+# 3. Test it
+Import-Module Microsoft.Graph.Authentication
+Connect-MgGraph -TenantId 'n0xlabs.com' -Scopes 'User.Read' -UseDeviceCode -NoWelcome
+
+# 4. Install EXO (fresh PowerShell session)
+Install-Module ExchangeOnlineManagement -Scope CurrentUser -Force
+
+# 5. Install Microsoft-Extractor-Suite
+Install-Module Microsoft-Extractor-Suite -Scope CurrentUser
