@@ -129,45 +129,45 @@ function Show-MainMenu {
     Write-Host "  ┌─────────────────────────────────────────────────────┐" -ForegroundColor DarkCyan
     Write-Host "  │              CASE & CONNECTION                      │" -ForegroundColor DarkCyan
     Write-Host "  ├─────────────────────────────────────────────────────┤" -ForegroundColor DarkCyan
-    Write-Host "  │  1.  New Case                                      │" -ForegroundColor White
-    Write-Host "  │  2.  Connect to Tenant                             │" -ForegroundColor White
-    Write-Host "  │  3.  Show Current Context                          │" -ForegroundColor White
+    Write-Host "  │  1.  New Case                                       │" -ForegroundColor White
+    Write-Host "  │  2.  Connect to Tenant                              │" -ForegroundColor White
+    Write-Host "  │  3.  Show Current Context                           │" -ForegroundColor White
     Write-Host "  ├─────────────────────────────────────────────────────┤" -ForegroundColor DarkCyan
     Write-Host "  │              PRE-FLIGHT                             │" -ForegroundColor DarkCyan
     Write-Host "  ├─────────────────────────────────────────────────────┤" -ForegroundColor DarkCyan
-    Write-Host "  │  4.  Audit Readiness Check                         │" -ForegroundColor White
+    Write-Host "  │  4.  Audit Readiness Check                          │" -ForegroundColor White
     Write-Host "  ├─────────────────────────────────────────────────────┤" -ForegroundColor DarkCyan
-    Write-Host "  │       PHASE 1: How did they get in?                │" -ForegroundColor Yellow
+    Write-Host "  │       PHASE 1: How did they get in?                 │" -ForegroundColor Yellow
     Write-Host "  ├─────────────────────────────────────────────────────┤" -ForegroundColor DarkCyan
-    Write-Host "  │  5.  Sign-In Logs (single user)                    │" -ForegroundColor White
-    Write-Host "  │  6.  Sign-In Logs (all users)                      │" -ForegroundColor White
-    Write-Host "  │  7.  Risky Users & Detections                      │" -ForegroundColor White
+    Write-Host "  │  5.  Sign-In Logs (single user)                     │" -ForegroundColor White
+    Write-Host "  │  6.  Sign-In Logs (all users)                       │" -ForegroundColor White
+    Write-Host "  │  7.  Risky Users & Detections                       │" -ForegroundColor White
     Write-Host "  ├─────────────────────────────────────────────────────┤" -ForegroundColor DarkCyan
-    Write-Host "  │       PHASE 3: What persistence did they leave?    │" -ForegroundColor Yellow
+    Write-Host "  │       PHASE 3: What persistence did they leave?     │" -ForegroundColor Yellow
     Write-Host "  ├─────────────────────────────────────────────────────┤" -ForegroundColor DarkCyan
-    Write-Host "  │  8.  Inbox Rules (single user)                     │" -ForegroundColor White
-    Write-Host "  │  9.  Inbox Rules (all users, tenant-wide)          │" -ForegroundColor White
-    Write-Host "  │  10. Inbox Rules + Hidden Rules (single user)      │" -ForegroundColor White
-    Write-Host "  │  11. Inbox Rules + Hidden Rules (ALL users)        │" -ForegroundColor White
-    Write-Host "  │  12. Mailbox Forwarding (single user)              │" -ForegroundColor White
-    Write-Host "  │  13. Mailbox Forwarding (all users)                │" -ForegroundColor White
-    Write-Host "  │  14. Mailbox Delegations (single user)             │" -ForegroundColor White
-    Write-Host "  │  15. Mailbox Delegations (all users)               │" -ForegroundColor White
-    Write-Host "  │  16. Auth Method / MFA Changes (single user)       │" -ForegroundColor White
-    Write-Host "  │  17. Auth Method / MFA Changes (all users)         │" -ForegroundColor White
+    Write-Host "  │  8.  Inbox Rules (single user)                      │" -ForegroundColor White
+    Write-Host "  │  9.  Inbox Rules (all users, tenant-wide)           │" -ForegroundColor White
+    Write-Host "  │  10. Inbox Rules + Hidden Rules (single user)       │" -ForegroundColor White
+    Write-Host "  │  11. Inbox Rules + Hidden Rules (ALL users)         │" -ForegroundColor White
+    Write-Host "  │  12. Mailbox Forwarding (single user)               │" -ForegroundColor White
+    Write-Host "  │  13. Mailbox Forwarding (all users)                 │" -ForegroundColor White
+    Write-Host "  │  14. Mailbox Delegations (single user)              │" -ForegroundColor White
+    Write-Host "  │  15. Mailbox Delegations (all users)                │" -ForegroundColor White
+    Write-Host "  │  16. Auth Method / MFA Changes (single user)        │" -ForegroundColor White
+    Write-Host "  │  17. Auth Method / MFA Changes (all users)          │" -ForegroundColor White
     Write-Host "  ├─────────────────────────────────────────────────────┤" -ForegroundColor DarkCyan
-    Write-Host "  │       PHASE 5: What privileges/apps did they add?  │" -ForegroundColor Yellow
+    Write-Host "  │       PHASE 5: What privileges/apps did they add?   │" -ForegroundColor Yellow
     Write-Host "  ├─────────────────────────────────────────────────────┤" -ForegroundColor DarkCyan
-    Write-Host "  │  18. Admin Role Changes + Current Holders          │" -ForegroundColor White
-    Write-Host "  │  19. OAuth Grants & Service Principals             │" -ForegroundColor White
-    Write-Host "  │  20. OAuth Grants (single user)                    │" -ForegroundColor White
+    Write-Host "  │  18. Admin Role Changes + Current Holders           │" -ForegroundColor White
+    Write-Host "  │  19. OAuth Grants & Service Principals              │" -ForegroundColor White
+    Write-Host "  │  20. OAuth Grants (single user)                     │" -ForegroundColor White
     Write-Host "  ├─────────────────────────────────────────────────────┤" -ForegroundColor DarkCyan
-    Write-Host "  │              ORCHESTRATORS                         │" -ForegroundColor DarkCyan
+    Write-Host "  │              ORCHESTRATORS                          │" -ForegroundColor DarkCyan
     Write-Host "  ├─────────────────────────────────────────────────────┤" -ForegroundColor DarkCyan
-    Write-Host "  │  21. FULL TRIAGE (single user - all phases)        │" -ForegroundColor Green
-    Write-Host "  │  22. FULL TRIAGE (tenant-wide - all phases)        │" -ForegroundColor Green
+    Write-Host "  │  21. FULL TRIAGE (single user - all phases)         │" -ForegroundColor Green
+    Write-Host "  │  22. FULL TRIAGE (tenant-wide - all phases)         │" -ForegroundColor Green
     Write-Host "  ├─────────────────────────────────────────────────────┤" -ForegroundColor DarkCyan
-    Write-Host "  │       EXTRACTOR SUITE (MES) INTEGRATION           │" -ForegroundColor DarkCyan
+    Write-Host "  │       EXTRACTOR SUITE (MES) INTEGRATION             │" -ForegroundColor DarkCyan
     Write-Host "  ├─────────────────────────────────────────────────────┤" -ForegroundColor DarkCyan
 
     # Check MES availability and show status
@@ -178,18 +178,18 @@ function Show-MainMenu {
         Write-Host "  │  Status: NOT INSTALLED                             │" -ForegroundColor DarkGray
     }
 
-    Write-Host "  │  23. MES Full Evidence Collection (auto-all)       │" -ForegroundColor $(if($mesStatus.Available){'White'}else{'DarkGray'})
-    Write-Host "  │  24. MES Unified Audit Log (Get-UALGraph)          │" -ForegroundColor $(if($mesStatus.Available){'White'}else{'DarkGray'})
-    Write-Host "  │  25. MES MailItemsAccessed (what was read)         │" -ForegroundColor $(if($mesStatus.Available){'White'}else{'DarkGray'})
-    Write-Host "  │  26. MES Message Trace (mail flow)                 │" -ForegroundColor $(if($mesStatus.Available){'White'}else{'DarkGray'})
-    Write-Host "  │  27. MES Session Correlation                       │" -ForegroundColor $(if($mesStatus.Available){'White'}else{'DarkGray'})
-    Write-Host "  │  28. MES Run Any Collector                         │" -ForegroundColor $(if($mesStatus.Available){'White'}else{'DarkGray'})
+    Write-Host "  │  23. MES Full Evidence Collection (auto-all)        │" -ForegroundColor $(if($mesStatus.Available){'White'}else{'DarkGray'})
+    Write-Host "  │  24. MES Unified Audit Log (Get-UALGraph)           │" -ForegroundColor $(if($mesStatus.Available){'White'}else{'DarkGray'})
+    Write-Host "  │  25. MES MailItemsAccessed (what was read)          │" -ForegroundColor $(if($mesStatus.Available){'White'}else{'DarkGray'})
+    Write-Host "  │  26. MES Message Trace (mail flow)                  │" -ForegroundColor $(if($mesStatus.Available){'White'}else{'DarkGray'})
+    Write-Host "  │  27. MES Session Correlation                        │" -ForegroundColor $(if($mesStatus.Available){'White'}else{'DarkGray'})
+    Write-Host "  │  28. MES Run Any Collector                          │" -ForegroundColor $(if($mesStatus.Available){'White'}else{'DarkGray'})
     Write-Host "  ├─────────────────────────────────────────────────────┤" -ForegroundColor DarkCyan
-    Write-Host "  │              REPORTING & CASE MGMT                 │" -ForegroundColor DarkCyan
+    Write-Host "  │              REPORTING & CASE MGMT                  │" -ForegroundColor DarkCyan
     Write-Host "  ├─────────────────────────────────────────────────────┤" -ForegroundColor DarkCyan
-    Write-Host "  │  29. Generate Triage Summary Report (HTML)         │" -ForegroundColor Magenta
-    Write-Host "  │  30. Finalize Case (manifest + zip)                │" -ForegroundColor White
-    Write-Host "  │  31. Disconnect & Exit                             │" -ForegroundColor White
+    Write-Host "  │  29. Generate Triage Summary Report (HTML)          │" -ForegroundColor Magenta
+    Write-Host "  │  30. Finalize Case (manifest + zip)                 │" -ForegroundColor White
+    Write-Host "  │  31. Disconnect & Exit                              │" -ForegroundColor White
     Write-Host "  └─────────────────────────────────────────────────────┘" -ForegroundColor DarkCyan
     Write-Host ""
 }
