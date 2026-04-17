@@ -153,58 +153,58 @@ The menu walks you through everything:
   ┌─────────────────────────────────────────────────────┐
   │              CASE & CONNECTION                      │
   ├─────────────────────────────────────────────────────┤
-  │  1.  New Case                                      │
-  │  2.  Connect to Tenant                             │
-  │  3.  Show Current Context                          │
+  │  1.  New Case                                       │
+  │  2.  Connect to Tenant                              │
+  │  3.  Show Current Context                           │
   ├─────────────────────────────────────────────────────┤
   │              PRE-FLIGHT                             │
   ├─────────────────────────────────────────────────────┤
-  │  4.  Audit Readiness Check                         │
+  │  4.  Audit Readiness Check                          │
   ├─────────────────────────────────────────────────────┤
-  │       PHASE 1: How did they get in?                │
+  │       PHASE 1: How did they get in?                 │
   ├─────────────────────────────────────────────────────┤
-  │  5.  Sign-In Logs (single user)                    │
-  │  6.  Sign-In Logs (all users)                      │
-  │  7.  Risky Users & Detections                      │
+  │  5.  Sign-In Logs (single user)                     │
+  │  6.  Sign-In Logs (all users)                       │
+  │  7.  Risky Users & Detections                       │
   ├─────────────────────────────────────────────────────┤
-  │       PHASE 3: What persistence did they leave?    │
+  │       PHASE 3: What persistence did they leave?     │
   ├─────────────────────────────────────────────────────┤
-  │  8.  Inbox Rules (single user)                     │
-  │  9.  Inbox Rules (all users, tenant-wide)          │
-  │  10. Inbox Rules + Hidden Rules (single user)      │
-  │  11. Inbox Rules + Hidden Rules (ALL users)        │
-  │  12. Mailbox Forwarding (single user)              │
-  │  13. Mailbox Forwarding (all users)                │
-  │  14. Mailbox Delegations (single user)             │
-  │  15. Mailbox Delegations (all users)               │
-  │  16. Auth Method / MFA Changes (single user)       │
-  │  17. Auth Method / MFA Changes (all users)         │
+  │  8.  Inbox Rules (single user)                      │
+  │  9.  Inbox Rules (all users, tenant-wide)           │
+  │  10. Inbox Rules + Hidden Rules (single user)       │
+  │  11. Inbox Rules + Hidden Rules (ALL users)         │
+  │  12. Mailbox Forwarding (single user)               │
+  │  13. Mailbox Forwarding (all users)                 │
+  │  14. Mailbox Delegations (single user)              │
+  │  15. Mailbox Delegations (all users)                │
+  │  16. Auth Method / MFA Changes (single user)        │
+  │  17. Auth Method / MFA Changes (all users)          │
   ├─────────────────────────────────────────────────────┤
-  │       PHASE 5: What privileges/apps did they add?  │
+  │       PHASE 5: What privileges/apps did they add?   │
   ├─────────────────────────────────────────────────────┤
-  │  18. Admin Role Changes + Current Holders          │
-  │  19. OAuth Grants & Service Principals             │
-  │  20. OAuth Grants (single user)                    │
+  │  18. Admin Role Changes + Current Holders           │
+  │  19. OAuth Grants & Service Principals              │
+  │  20. OAuth Grants (single user)                     │
   ├─────────────────────────────────────────────────────┤
-  │              ORCHESTRATORS                         │
+  │              ORCHESTRATORS                          │
   ├─────────────────────────────────────────────────────┤
-  │  21. FULL TRIAGE (single user - all phases)        │
-  │  22. FULL TRIAGE (tenant-wide - all phases)        │
+  │  21. FULL TRIAGE (single user - all phases)         │
+  │  22. FULL TRIAGE (tenant-wide - all phases)         │
   ├─────────────────────────────────────────────────────┤
-  │       EXTRACTOR SUITE (MES) INTEGRATION            │
+  │       EXTRACTOR SUITE (MES) INTEGRATION             │
   ├─────────────────────────────────────────────────────┤
-  │  23. MES Full Evidence Collection (auto-all)       │
-  │  24. MES Unified Audit Log (Get-UALGraph)          │
-  │  25. MES MailItemsAccessed (what was read)         │
-  │  26. MES Message Trace (mail flow)                 │
-  │  27. MES Session Correlation                       │
-  │  28. MES Run Any Collector                         │
+  │  23. MES Full Evidence Collection (auto-all)        │
+  │  24. MES Unified Audit Log (Get-UALGraph)           │
+  │  25. MES MailItemsAccessed (what was read)          │
+  │  26. MES Message Trace (mail flow)                  │
+  │  27. MES Session Correlation                        │
+  │  28. MES Run Any Collector                          │
   ├─────────────────────────────────────────────────────┤
-  │              REPORTING & CASE MGMT                 │
+  │              REPORTING & CASE MGMT                  │
   ├─────────────────────────────────────────────────────┤
-  │  29. Generate Triage Summary Report (HTML)         │
-  │  30. Finalize Case (manifest + zip)                │
-  │  31. Disconnect & Exit                             │
+  │  29. Generate Triage Summary Report (HTML)          │
+  │  30. Finalize Case (manifest + zip)                 │
+  │  31. Disconnect & Exit                              │
   └─────────────────────────────────────────────────────┘
 ```
 
