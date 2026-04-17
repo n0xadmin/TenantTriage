@@ -1,9 +1,6 @@
 <#
-.SYNOPSIS
-    TenantTriage - Interactive M365/Entra incident response launcher.
-
-.DESCRIPTION
-    Run this script. It handles everything:
+DESCRIPTION
+    Run this script. It handles collecting everything:
       - Case creation
       - Tenant authentication (Interactive, DeviceCode, or AppOnly)
       - Menu-driven collector selection
@@ -11,15 +8,15 @@
 
     Each collector can also be run standalone by dot-sourcing it directly.
 
-.EXAMPLE
+EXAMPLE
     # Interactive menu mode (default)
     .\TenantTriage.ps1
 
-.EXAMPLE
+EXAMPLE
     # Quick single-user triage (non-interactive)
     .\TenantTriage.ps1 -QuickTriage -TenantId 'contoso.onmicrosoft.com' -FocusUpn 'cfo@contoso.com'
 
-.EXAMPLE
+EXAMPLE
     # Full sweep (non-interactive)
     .\TenantTriage.ps1 -FullTriage -TenantId 'contoso.onmicrosoft.com' -FocusUpn 'cfo@contoso.com','ap@contoso.com'
 #>
